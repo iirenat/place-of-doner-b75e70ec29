@@ -1,0 +1,50 @@
+{
+  "siteUrl": "https://iirenat.github.io/place-of-doner-b75e70ec29/",
+  "name": "Place of Döner",
+  "brandPre": "PLACE OF",
+  "brandMain": "DÖNER",
+  "tagline": "Pizza · Döner · Pide · frisch zubereitet",
+  "address": {
+    "street": "Koblenzer Str. 10",
+    "zip": "56727",
+    "city": "Mayen",
+    "country": "DE"
+  },
+  "phone": {
+    "display": "02651 7004344",
+    "tel": "+4926517004344"
+  },
+  "email": "[TODO: E-Mail-Adresse]",
+  "owner": "[TODO: Inhaber – Vor- und Nachname]",
+  "ustId": "",
+  "hosting": "[TODO: Hosting-Anbieter, Name und Anschrift]",
+  "placeId": "PLACE_ID",
+  "hours": null,
+  "links": {
+    "instagram": "",
+    "delivery": "",
+    "deliveryLabel": "Online bestellen"
+  },
+  "allergens": {
+    "mode": "hinweis",
+    "note": "Allergene und Zusatzstoffe bitte an der Theke erfragen.",
+    "legend": {
+      "A": "Glutenhaltiges Getreide",
+      "B": "Krebstiere",
+      "C": "Eier",
+      "D": "Fisch",
+      "E": "Erdnüsse",
+      "F": "Soja",
+      "G": "Milch und Laktose",
+      "H": "Schalenfrüchte (Nüsse)",
+      "L": "Sellerie",
+      "M": "Senf",
+      "N": "Sesam",
+      "O": "Schwefeldioxid und Sulfite",
+      "P": "Lupinen",
+      "R": "Weichtiere"
+    }
+  },
+  "logo": "",
+  "indexable": false
+}

@@ -1,0 +1,683 @@
+{
+  "_hinweis": "Preise ändern: siehe ANLEITUNG_PREISE.md. Nur die Zahl vor dem € ändern, Anführungszeichen und Komma beibehalten.",
+  "demo": true,
+  "sauces": [],
+  "categories": [
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "dishes": [
+        {
+          "id": "d20",
+          "nr": "20",
+          "name": "Pizza Salami",
+          "description": "Tomatensoße, Käse, Salami",
+          "ingredients": [
+            "Tomatensoße",
+            "Käse",
+            "Salami"
+          ],
+          "price": "8,00 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": false,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d21",
+          "nr": "21",
+          "name": "Pizza Peperoni",
+          "description": "Tomatensoße, Käse, scharfe Peperoni-Wurst",
+          "ingredients": [
+            "Tomatensoße",
+            "Käse",
+            "scharfe Peperoni-Wurst"
+          ],
+          "price": "8,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": false,
+          "recommended": true,
+          "photo": ""
+        },
+        {
+          "id": "d22",
+          "nr": "22",
+          "name": "Pizza Sucuk",
+          "description": "Tomatensoße, Käse, Sucuk, Zwiebeln",
+          "ingredients": [
+            "Tomatensoße",
+            "Käse",
+            "Sucuk",
+            "Zwiebeln"
+          ],
+          "price": "9,00 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": false,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d23",
+          "nr": "23",
+          "name": "Pizza Schinken",
+          "description": "Tomatensoße, Käse, Kochschinken",
+          "ingredients": [
+            "Tomatensoße",
+            "Käse",
+            "Kochschinken"
+          ],
+          "price": "8,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": false,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d24",
+          "nr": "24",
+          "name": "Pizza Döner",
+          "description": "Tomatensoße, Käse, Döner-Fleisch, Zwiebeln",
+          "ingredients": [
+            "Tomatensoße",
+            "Käse",
+            "Döner-Fleisch",
+            "Zwiebeln"
+          ],
+          "price": "9,00 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": false,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d25",
+          "nr": "25",
+          "name": "Pizza Hawaii",
+          "description": "Tomatensoße, Käse, Schinken, Ananas",
+          "ingredients": [
+            "Tomatensoße",
+            "Käse",
+            "Schinken",
+            "Ananas"
+          ],
+          "price": "9,00 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": false,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d26",
+          "nr": "26",
+          "name": "Pizza Margherita",
+          "description": "Tomatensoße, Käse",
+          "ingredients": [
+            "Tomatensoße",
+            "Käse"
+          ],
+          "price": "7,00 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": true,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d27",
+          "nr": "27",
+          "name": "Pizza Funghi",
+          "description": "Tomatensoße, Käse, frische Champignons",
+          "ingredients": [
+            "Tomatensoße",
+            "Käse",
+            "frische Champignons"
+          ],
+          "price": "8,00 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": true,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d28",
+          "nr": "28",
+          "name": "Pizza Vegetaria",
+          "description": "Tomatensoße, Käse, Paprika, Mais, Champignons, Zwiebeln",
+          "ingredients": [
+            "Tomatensoße",
+            "Käse",
+            "Paprika",
+            "Mais",
+            "Champignons",
+            "Zwiebeln"
+          ],
+          "price": "9,00 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": true,
+          "recommended": false,
+          "photo": ""
+        }
+      ],
+      "extras": []
+    },
+    {
+      "id": "doner",
+      "name": "Döner",
+      "dishes": [
+        {
+          "id": "d1",
+          "nr": "1",
+          "name": "Döner Tasche",
+          "description": "Fladenbrot, Kalbfleisch, Salat, Zwiebeln, Soße nach Wahl",
+          "ingredients": [
+            "Fladenbrot",
+            "Kalbfleisch",
+            "Salat",
+            "Zwiebeln",
+            "Soße nach Wahl"
+          ],
+          "price": "7,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": true,
+          "allergens": [],
+          "vegetarian": false,
+          "recommended": true,
+          "photo": ""
+        },
+        {
+          "id": "d2",
+          "nr": "2",
+          "name": "Dürüm Döner",
+          "description": "Dünnes Yufka-Brot, Kalbfleisch, Salat, Zwiebeln, Soße",
+          "ingredients": [
+            "Dünnes Yufka-Brot",
+            "Kalbfleisch",
+            "Salat",
+            "Zwiebeln",
+            "Soße"
+          ],
+          "price": "8,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": true,
+          "allergens": [],
+          "vegetarian": false,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d3",
+          "nr": "3",
+          "name": "Hähnchen Döner",
+          "description": "Fladenbrot, Hähnchenfleisch, Salat, Zwiebeln, Soße",
+          "ingredients": [
+            "Fladenbrot",
+            "Hähnchenfleisch",
+            "Salat",
+            "Zwiebeln",
+            "Soße"
+          ],
+          "price": "7,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": true,
+          "allergens": [],
+          "vegetarian": false,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d4",
+          "nr": "4",
+          "name": "Döner Box",
+          "description": "Döner-Fleisch, Pommes, Salat, Soße",
+          "ingredients": [
+            "Döner-Fleisch",
+            "Pommes",
+            "Salat",
+            "Soße"
+          ],
+          "price": "8,00 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": true,
+          "allergens": [],
+          "vegetarian": false,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d5",
+          "nr": "5",
+          "name": "Döner Teller",
+          "description": "Döner-Fleisch, Reis oder Pommes, Salat, Soße",
+          "ingredients": [
+            "Döner-Fleisch",
+            "Reis oder Pommes",
+            "Salat",
+            "Soße"
+          ],
+          "price": "11,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": true,
+          "allergens": [],
+          "vegetarian": false,
+          "recommended": true,
+          "photo": ""
+        },
+        {
+          "id": "d6",
+          "nr": "6",
+          "name": "Gemüse Döner",
+          "description": "Fladenbrot, gegrilltes Gemüse, Salat, Feta, Soße",
+          "ingredients": [
+            "Fladenbrot",
+            "gegrilltes Gemüse",
+            "Salat",
+            "Feta",
+            "Soße"
+          ],
+          "price": "6,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": true,
+          "allergens": [],
+          "vegetarian": true,
+          "recommended": false,
+          "photo": ""
+        }
+      ],
+      "extras": []
+    },
+    {
+      "id": "turkish",
+      "name": "Pide",
+      "dishes": [
+        {
+          "id": "d10",
+          "nr": "10",
+          "name": "Lahmacun",
+          "description": "Knuspriger Teig mit würzigem Hackfleisch, Salat und Zitrone",
+          "ingredients": [
+            "Knuspriger Teig",
+            "Würziges Hackfleisch",
+            "Salat",
+            "Zitrone"
+          ],
+          "price": "6,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": false,
+          "recommended": true,
+          "photo": ""
+        },
+        {
+          "id": "d11",
+          "nr": "11",
+          "name": "Lahmacun mit Döner",
+          "description": "Lahmacun gefüllt mit Döner-Fleisch, Salat, Soße",
+          "ingredients": [
+            "Lahmacun-Teig",
+            "Döner-Fleisch",
+            "Salat",
+            "Soße"
+          ],
+          "price": "8,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": true,
+          "allergens": [],
+          "vegetarian": false,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d12",
+          "nr": "12",
+          "name": "Pide mit Käse",
+          "description": "Ofenfrisches Fladenbrot-Schiffchen mit Käse",
+          "ingredients": [
+            "Frischer Pide-Teig",
+            "Geschmolzener Käse",
+            "Ofenfrisch gebacken"
+          ],
+          "price": "8,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": true,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d13",
+          "nr": "13",
+          "name": "Pide mit Hackfleisch",
+          "description": "Ofenfrisches Pide mit Hackfleisch und Zwiebeln",
+          "ingredients": [
+            "Frischer Pide-Teig",
+            "Hackfleisch",
+            "Zwiebeln",
+            "Ofenfrisch gebacken"
+          ],
+          "price": "9,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": false,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d14",
+          "nr": "14",
+          "name": "Pide mit Sucuk",
+          "description": "Pide mit würziger Knoblauchwurst und Käse",
+          "ingredients": [
+            "Frischer Pide-Teig",
+            "Würzige Knoblauchwurst (Sucuk)",
+            "Käse",
+            "Ofenfrisch gebacken"
+          ],
+          "price": "9,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": false,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d15",
+          "nr": "15",
+          "name": "Köfte Teller",
+          "description": "Gegrillte Hackfleischröllchen, Reis, Salat, Soße",
+          "ingredients": [
+            "Gegrillte Hackfleischröllchen",
+            "Reis",
+            "Salat",
+            "Soße"
+          ],
+          "price": "12,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": true,
+          "allergens": [],
+          "vegetarian": false,
+          "recommended": false,
+          "photo": ""
+        }
+      ],
+      "extras": []
+    },
+    {
+      "id": "snacks",
+      "name": "Snacks",
+      "dishes": [
+        {
+          "id": "d50",
+          "nr": "50",
+          "name": "Falafel Tasche",
+          "description": "Fladenbrot, Falafel, Salat, Hummus, Soße",
+          "ingredients": [
+            "Fladenbrot",
+            "Falafel",
+            "Salat",
+            "Hummus",
+            "Soße"
+          ],
+          "price": "6,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": true,
+          "allergens": [],
+          "vegetarian": true,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d51",
+          "nr": "51",
+          "name": "Pommes Frites",
+          "description": "Knusprige Pommes, Ketchup oder Mayo",
+          "ingredients": [
+            "Knusprige Pommes",
+            "Ketchup oder Mayo"
+          ],
+          "price": "3,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": true,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d52",
+          "nr": "52",
+          "name": "Chicken Nuggets (6 Stück)",
+          "description": "Mit Pommes und Soße",
+          "ingredients": [
+            "6 Chicken Nuggets",
+            "Pommes",
+            "Soße"
+          ],
+          "price": "6,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": true,
+          "allergens": [],
+          "vegetarian": false,
+          "recommended": false,
+          "photo": ""
+        }
+      ],
+      "extras": []
+    },
+    {
+      "id": "salat",
+      "name": "Salate",
+      "dishes": [
+        {
+          "id": "d30",
+          "nr": "30",
+          "name": "Gemischter Salat",
+          "description": "Eisbergsalat, Tomaten, Gurken, Zwiebeln, Mais, Dressing",
+          "ingredients": [
+            "Eisbergsalat",
+            "Tomaten",
+            "Gurken",
+            "Zwiebeln",
+            "Mais",
+            "Dressing"
+          ],
+          "price": "6,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": true,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d31",
+          "nr": "31",
+          "name": "Hirtensalat",
+          "description": "Tomaten, Gurken, Zwiebeln, Paprika, Feta, Olivenöl",
+          "ingredients": [
+            "Tomaten",
+            "Gurken",
+            "Zwiebeln",
+            "Paprika",
+            "Feta",
+            "Olivenöl"
+          ],
+          "price": "7,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": true,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d32",
+          "nr": "32",
+          "name": "Döner Salat",
+          "description": "Gemischter Salat mit Döner-Fleisch und Soße",
+          "ingredients": [
+            "Gemischter Salat",
+            "Döner-Fleisch",
+            "Soße"
+          ],
+          "price": "9,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": true,
+          "allergens": [],
+          "vegetarian": false,
+          "recommended": false,
+          "photo": ""
+        }
+      ],
+      "extras": []
+    },
+    {
+      "id": "drinks",
+      "name": "Getränke",
+      "dishes": [
+        {
+          "id": "d40",
+          "nr": "40",
+          "name": "Ayran",
+          "description": "Erfrischendes Joghurtgetränk, 0,25 l",
+          "ingredients": [
+            "Joghurt",
+            "Wasser",
+            "Prise Salz",
+            "0,25 l"
+          ],
+          "price": "2,00 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": true,
+          "recommended": true,
+          "photo": ""
+        },
+        {
+          "id": "d41",
+          "nr": "41",
+          "name": "Cola / Fanta / Sprite",
+          "description": "0,33 l Dose",
+          "ingredients": [
+            "Cola, Fanta oder Sprite",
+            "Gekühlt",
+            "0,33 l Dose"
+          ],
+          "price": "2,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": true,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d42",
+          "nr": "42",
+          "name": "Wasser",
+          "description": "0,5 l Flasche",
+          "ingredients": [
+            "Wasser",
+            "0,5 l Flasche"
+          ],
+          "price": "1,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": true,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d43",
+          "nr": "43",
+          "name": "Tee",
+          "description": "Frisch aufgebrüht im Glas",
+          "ingredients": [
+            "Schwarzer Tee",
+            "Frisch aufgebrüht",
+            "Im Glas serviert"
+          ],
+          "price": "1,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": true,
+          "recommended": false,
+          "photo": ""
+        },
+        {
+          "id": "d44",
+          "nr": "44",
+          "name": "Kaffee",
+          "description": "Frisch zubereitet",
+          "ingredients": [
+            "Frisch gemahlener Kaffee",
+            "Frisch zubereitet"
+          ],
+          "price": "2,50 €",
+          "sizes": [],
+          "extras": [],
+          "sauces": false,
+          "allergens": [],
+          "vegetarian": true,
+          "recommended": false,
+          "photo": ""
+        }
+      ],
+      "extras": []
+    }
+  ]
+}
