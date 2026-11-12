@@ -1,0 +1,1374 @@
+{
+ "langs": [
+  [
+   "de",
+   "DE"
+  ],
+  [
+   "en",
+   "EN"
+  ],
+  [
+   "tr",
+   "TR"
+  ],
+  [
+   "uk",
+   "UA"
+  ]
+ ],
+ "ui": {
+  "hi": {
+   "de": "Herzlich willkommen",
+   "en": "Welcome",
+   "tr": "Hoş geldiniz",
+   "uk": "Ласкаво просимо"
+  },
+  "at": {
+   "de": "bei",
+   "en": "to",
+   "tr": "",
+   "uk": "до"
+  },
+  "tagline": {
+   "de": "Pizza · Döner · Pide · frisch zubereitet",
+   "en": "Pizza · Döner · Pide · freshly made",
+   "tr": "Pizza · Döner · Pide · taze hazırlanır",
+   "uk": "Піца · Донер · Піде · готуємо свіжим"
+  },
+  "view": {
+   "de": "Speisekarte ansehen",
+   "en": "View the menu",
+   "tr": "Menüyü gör",
+   "uk": "Переглянути меню"
+  },
+  "search": {
+   "de": "Suchen …",
+   "en": "Search …",
+   "tr": "Ara …",
+   "uk": "Пошук …"
+  },
+  "veg": {
+   "de": "Vegetarisch",
+   "en": "Vegetarian",
+   "tr": "Vejetaryen",
+   "uk": "Вегетаріанське"
+  },
+  "rec": {
+   "de": "Empfehlung",
+   "en": "Recommended",
+   "tr": "Tavsiye",
+   "uk": "Рекомендуємо"
+  },
+  "none": {
+   "de": "Nichts gefunden",
+   "en": "Nothing found",
+   "tr": "Sonuç bulunamadı",
+   "uk": "Нічого не знайдено"
+  },
+  "hint": {
+   "de": "Tippen Sie auf ein Gericht, um Zutaten zu sehen.",
+   "en": "Tap a dish to see what's inside.",
+   "tr": "Malzemeleri görmek için bir yemeğe dokunun.",
+   "uk": "Натисніть на страву, щоб побачити склад."
+  },
+  "ing": {
+   "de": "Zutaten",
+   "en": "Ingredients",
+   "tr": "Malzemeler",
+   "uk": "Склад"
+  },
+  "back": {
+   "de": "Zurück zur Speisekarte",
+   "en": "Back to the menu",
+   "tr": "Menüye dön",
+   "uk": "Назад до меню"
+  },
+  "visit": {
+   "de": "Besuchen Sie uns",
+   "en": "Visit us",
+   "tr": "Bize uğrayın",
+   "uk": "Завітайте до нас"
+  },
+  "addr": {
+   "de": "Adresse",
+   "en": "Address",
+   "tr": "Adres",
+   "uk": "Адреса"
+  },
+  "hours": {
+   "de": "Öffnungszeiten",
+   "en": "Opening hours",
+   "tr": "Çalışma saatleri",
+   "uk": "Години роботи"
+  },
+  "sizes": {
+   "de": "Größen",
+   "en": "Sizes",
+   "tr": "Boyutlar",
+   "uk": "Розміри"
+  },
+  "extras": {
+   "de": "Extras",
+   "en": "Extras",
+   "tr": "Ekstralar",
+   "uk": "Додатки"
+  },
+  "sauces": {
+   "de": "Soßen",
+   "en": "Sauces",
+   "tr": "Soslar",
+   "uk": "Соуси"
+  },
+  "allergens": {
+   "de": "Allergene",
+   "en": "Allergens",
+   "tr": "Alerjenler",
+   "uk": "Алергени"
+  },
+  "nr": {
+   "de": "Nr.",
+   "en": "No.",
+   "tr": "No.",
+   "uk": "№"
+  },
+  "close": {
+   "de": "Schließen",
+   "en": "Close",
+   "tr": "Kapat",
+   "uk": "Закрити"
+  },
+  "contact": {
+   "de": "Kontakt",
+   "en": "Contact",
+   "tr": "İletişim",
+   "uk": "Контакти"
+  },
+  "phone": {
+   "de": "Telefon",
+   "en": "Phone",
+   "tr": "Telefon",
+   "uk": "Телефон"
+  },
+  "call": {
+   "de": "Restaurant anrufen",
+   "en": "Call the restaurant",
+   "tr": "Restoranı ara",
+   "uk": "Подзвонити в ресторан"
+  },
+  "review": {
+   "de": "Bewertung schreiben",
+   "en": "Write a review",
+   "tr": "Yorum yaz",
+   "uk": "Написати відгук"
+  },
+  "route": {
+   "de": "Route planen",
+   "en": "Plan route",
+   "tr": "Yol tarifi al",
+   "uk": "Прокласти маршрут"
+  },
+  "pricenote": {
+   "de": "Alle Preise in Euro, inkl. MwSt.",
+   "en": "All prices in euros, incl. VAT.",
+   "tr": "Fiyatlar Euro olup KDV dahildir.",
+   "uk": "Усі ціни в євро, з ПДВ."
+  },
+  "allergennote": {
+   "de": "Allergene und Zusatzstoffe bitte an der Kasse erfragen.",
+   "en": "Please ask at the checkout about allergens and additives.",
+   "tr": "Alerjen ve katkı maddeleri için lütfen kasaya danışın.",
+   "uk": "Про алергени та добавки питайте, будь ласка, на касі."
+  },
+  "open": {
+   "de": "Jetzt geöffnet · bis {t} Uhr",
+   "en": "Open now · until {t}",
+   "tr": "Şimdi açık · {t} saatine kadar",
+   "uk": "Зараз відчинено · до {t}"
+  },
+  "closed": {
+   "de": "Jetzt geschlossen",
+   "en": "Closed now",
+   "tr": "Şu an kapalı",
+   "uk": "Зараз зачинено"
+  },
+  "from": {
+   "de": "ab",
+   "en": "from",
+   "tr": "başlayan",
+   "uk": "від"
+  },
+  "nsizes": {
+   "de": "{n} Größen",
+   "en": "{n} sizes",
+   "tr": "{n} boyut",
+   "uk": "{n} розміри"
+  },
+  "skip": {
+   "de": "Zur Speisekarte springen",
+   "en": "Skip to the menu",
+   "tr": "Menüye geç",
+   "uk": "Перейти до меню"
+  },
+  "cats": {
+   "de": "Kategorien",
+   "en": "Categories",
+   "tr": "Kategoriler",
+   "uk": "Категорії"
+  },
+  "searchlabel": {
+   "de": "Gericht suchen",
+   "en": "Search dishes",
+   "tr": "Yemek ara",
+   "uk": "Пошук страви"
+  },
+  "err": {
+   "de": "Die Speisekarte konnte gerade nicht geladen werden. Bitte rufen Sie uns an:",
+   "en": "The menu could not be loaded right now. Please call us:",
+   "tr": "Menü şu anda yüklenemedi. Lütfen bizi arayın:",
+   "uk": "Меню зараз не вдалося завантажити. Будь ласка, зателефонуйте нам:"
+  },
+  "legal": {
+   "de": "Rechtliches",
+   "en": "Legal",
+   "tr": "Yasal",
+   "uk": "Правова інформація"
+  },
+  "imprint": {
+   "de": "Impressum",
+   "en": "Legal notice (Impressum)",
+   "tr": "Künye (Impressum)",
+   "uk": "Імпресум"
+  },
+  "privacy": {
+   "de": "Datenschutz",
+   "en": "Privacy",
+   "tr": "Gizlilik",
+   "uk": "Конфіденційність"
+  },
+  "lang": {
+   "de": "Sprache",
+   "en": "Language",
+   "tr": "Dil",
+   "uk": "Мова"
+  },
+  "legendnote": {
+   "de": "Allergene und Zusatzstoffe: siehe Legende in der Speisekarte.",
+   "en": "Allergens and additives: see the legend in the menu.",
+   "tr": "Alerjenler ve katkı maddeleri: menüdeki açıklamaya bakın.",
+   "uk": "Алергени та добавки: див. легенду в меню."
+  }
+ },
+ "categories": {
+  "pizza": {
+   "en": "Pizza",
+   "tr": "Pizza",
+   "uk": "Піца"
+  },
+  "doner": {
+   "en": "Döner",
+   "tr": "Döner",
+   "uk": "Донер"
+  },
+  "turkish": {
+   "en": "Pide",
+   "tr": "Pide",
+   "uk": "Піде"
+  },
+  "snacks": {
+   "en": "Snacks",
+   "tr": "Atıştırma",
+   "uk": "Снеки"
+  },
+  "salat": {
+   "en": "Salads",
+   "tr": "Salata",
+   "uk": "Салати"
+  },
+  "drinks": {
+   "en": "Drinks",
+   "tr": "İçecek",
+   "uk": "Напої"
+  }
+ },
+ "dishes": {
+  "d20": {
+   "en": {
+    "name": "Pizza Salami",
+    "description": "Tomato sauce, cheese, salami",
+    "ingredients": [
+     "Tomato sauce",
+     "Cheese",
+     "Salami"
+    ]
+   },
+   "tr": {
+    "name": "Pizza Salam",
+    "description": "Domates sosu, peynir, salam",
+    "ingredients": [
+     "Domates sosu",
+     "Peynir",
+     "Salam"
+    ]
+   },
+   "uk": {
+    "name": "Піца Салямі",
+    "description": "Томатний соус, сир, салямі",
+    "ingredients": [
+     "Томатний соус",
+     "Сир",
+     "Салямі"
+    ]
+   }
+  },
+  "d21": {
+   "en": {
+    "name": "Pizza Pepperoni",
+    "description": "Tomato sauce, cheese, spicy pepperoni sausage",
+    "ingredients": [
+     "Tomato sauce",
+     "Cheese",
+     "Spicy pepperoni sausage"
+    ]
+   },
+   "tr": {
+    "name": "Pizza Pepperoni",
+    "description": "Domates sosu, peynir, acılı pepperoni sucuk",
+    "ingredients": [
+     "Domates sosu",
+     "Peynir",
+     "Acılı pepperoni sucuk"
+    ]
+   },
+   "uk": {
+    "name": "Піца Пепероні",
+    "description": "Томатний соус, сир, гостра ковбаска пепероні",
+    "ingredients": [
+     "Томатний соус",
+     "Сир",
+     "Гостра ковбаска пепероні"
+    ]
+   }
+  },
+  "d22": {
+   "en": {
+    "name": "Pizza Sucuk",
+    "description": "Tomato sauce, cheese, sucuk sausage, onions",
+    "ingredients": [
+     "Tomato sauce",
+     "Cheese",
+     "Sucuk sausage",
+     "Onions"
+    ]
+   },
+   "tr": {
+    "name": "Pizza Sucuk",
+    "description": "Domates sosu, peynir, sucuk, soğan",
+    "ingredients": [
+     "Domates sosu",
+     "Peynir",
+     "Sucuk",
+     "Soğan"
+    ]
+   },
+   "uk": {
+    "name": "Піца Суджук",
+    "description": "Томатний соус, сир, суджук, цибуля",
+    "ingredients": [
+     "Томатний соус",
+     "Сир",
+     "Суджук",
+     "Цибуля"
+    ]
+   }
+  },
+  "d23": {
+   "en": {
+    "name": "Pizza Ham",
+    "description": "Tomato sauce, cheese, cooked ham",
+    "ingredients": [
+     "Tomato sauce",
+     "Cheese",
+     "Cooked ham"
+    ]
+   },
+   "tr": {
+    "name": "Pizza Jambon",
+    "description": "Domates sosu, peynir, haşlanmış jambon",
+    "ingredients": [
+     "Domates sosu",
+     "Peynir",
+     "Haşlanmış jambon"
+    ]
+   },
+   "uk": {
+    "name": "Піца з шинкою",
+    "description": "Томатний соус, сир, варена шинка",
+    "ingredients": [
+     "Томатний соус",
+     "Сир",
+     "Варена шинка"
+    ]
+   }
+  },
+  "d24": {
+   "en": {
+    "name": "Pizza Döner",
+    "description": "Tomato sauce, cheese, döner meat, onions",
+    "ingredients": [
+     "Tomato sauce",
+     "Cheese",
+     "Döner meat",
+     "Onions"
+    ]
+   },
+   "tr": {
+    "name": "Pizza Döner",
+    "description": "Domates sosu, peynir, döner eti, soğan",
+    "ingredients": [
+     "Domates sosu",
+     "Peynir",
+     "Döner eti",
+     "Soğan"
+    ]
+   },
+   "uk": {
+    "name": "Піца Донер",
+    "description": "Томатний соус, сир, м'ясо для донера, цибуля",
+    "ingredients": [
+     "Томатний соус",
+     "Сир",
+     "М'ясо для донера",
+     "Цибуля"
+    ]
+   }
+  },
+  "d25": {
+   "en": {
+    "name": "Pizza Hawaii",
+    "description": "Tomato sauce, cheese, ham, pineapple",
+    "ingredients": [
+     "Tomato sauce",
+     "Cheese",
+     "Ham",
+     "Pineapple"
+    ]
+   },
+   "tr": {
+    "name": "Pizza Hawaii",
+    "description": "Domates sosu, peynir, jambon, ananas",
+    "ingredients": [
+     "Domates sosu",
+     "Peynir",
+     "Jambon",
+     "Ananas"
+    ]
+   },
+   "uk": {
+    "name": "Піца Гаваї",
+    "description": "Томатний соус, сир, шинка, ананас",
+    "ingredients": [
+     "Томатний соус",
+     "Сир",
+     "Шинка",
+     "Ананас"
+    ]
+   }
+  },
+  "d26": {
+   "en": {
+    "name": "Pizza Margherita",
+    "description": "Tomato sauce, cheese",
+    "ingredients": [
+     "Tomato sauce",
+     "Cheese"
+    ]
+   },
+   "tr": {
+    "name": "Pizza Margherita",
+    "description": "Domates sosu, peynir",
+    "ingredients": [
+     "Domates sosu",
+     "Peynir"
+    ]
+   },
+   "uk": {
+    "name": "Піца Маргарита",
+    "description": "Томатний соус, сир",
+    "ingredients": [
+     "Томатний соус",
+     "Сир"
+    ]
+   }
+  },
+  "d27": {
+   "en": {
+    "name": "Pizza Funghi",
+    "description": "Tomato sauce, cheese, fresh mushrooms",
+    "ingredients": [
+     "Tomato sauce",
+     "Cheese",
+     "Fresh mushrooms"
+    ]
+   },
+   "tr": {
+    "name": "Pizza Mantarlı",
+    "description": "Domates sosu, peynir, taze mantar",
+    "ingredients": [
+     "Domates sosu",
+     "Peynir",
+     "Taze mantar"
+    ]
+   },
+   "uk": {
+    "name": "Піца Фунгі",
+    "description": "Томатний соус, сир, свіжі печериці",
+    "ingredients": [
+     "Томатний соус",
+     "Сир",
+     "Свіжі печериці"
+    ]
+   }
+  },
+  "d28": {
+   "en": {
+    "name": "Pizza Vegetaria",
+    "description": "Tomato sauce, cheese, peppers, corn, mushrooms, onions",
+    "ingredients": [
+     "Tomato sauce",
+     "Cheese",
+     "Peppers",
+     "Corn",
+     "Mushrooms",
+     "Onions"
+    ]
+   },
+   "tr": {
+    "name": "Pizza Vejetaryen",
+    "description": "Domates sosu, peynir, biber, mısır, mantar, soğan",
+    "ingredients": [
+     "Domates sosu",
+     "Peynir",
+     "Biber",
+     "Mısır",
+     "Mantar",
+     "Soğan"
+    ]
+   },
+   "uk": {
+    "name": "Піца Вегетаріана",
+    "description": "Томатний соус, сир, перець, кукурудза, печериці, цибуля",
+    "ingredients": [
+     "Томатний соус",
+     "Сир",
+     "Перець",
+     "Кукурудза",
+     "Печериці",
+     "Цибуля"
+    ]
+   }
+  },
+  "d1": {
+   "en": {
+    "name": "Döner in pocket bread",
+    "description": "Flatbread, veal, salad, onions, sauce of your choice",
+    "ingredients": [
+     "Flatbread",
+     "Veal",
+     "Salad",
+     "Onions",
+     "Sauce of your choice"
+    ]
+   },
+   "tr": {
+    "name": "Döner Ekmek Arası",
+    "description": "Pide ekmeği, dana eti, salata, soğan, seçtiğiniz sos",
+    "ingredients": [
+     "Pide ekmeği",
+     "Dana eti",
+     "Salata",
+     "Soğan",
+     "Seçtiğiniz sos"
+    ]
+   },
+   "uk": {
+    "name": "Донер у лаваші-кишені",
+    "description": "Плаский хліб, телятина, салат, цибуля, соус на вибір",
+    "ingredients": [
+     "Плаский хліб",
+     "Телятина",
+     "Салат",
+     "Цибуля",
+     "Соус на вибір"
+    ]
+   }
+  },
+  "d2": {
+   "en": {
+    "name": "Dürüm wrap",
+    "description": "Thin yufka wrap, veal, salad, onions, sauce",
+    "ingredients": [
+     "Thin yufka wrap",
+     "Veal",
+     "Salad",
+     "Onions",
+     "Sauce"
+    ]
+   },
+   "tr": {
+    "name": "Dürüm Döner",
+    "description": "İnce yufka, dana eti, salata, soğan, sos",
+    "ingredients": [
+     "İnce yufka",
+     "Dana eti",
+     "Salata",
+     "Soğan",
+     "Sos"
+    ]
+   },
+   "uk": {
+    "name": "Дюрюм донер",
+    "description": "Тонкий лаваш юфка, телятина, салат, цибуля, соус",
+    "ingredients": [
+     "Тонкий лаваш юфка",
+     "Телятина",
+     "Салат",
+     "Цибуля",
+     "Соус"
+    ]
+   }
+  },
+  "d3": {
+   "en": {
+    "name": "Chicken döner",
+    "description": "Flatbread, chicken, salad, onions, sauce",
+    "ingredients": [
+     "Flatbread",
+     "Chicken",
+     "Salad",
+     "Onions",
+     "Sauce"
+    ]
+   },
+   "tr": {
+    "name": "Tavuk Döner",
+    "description": "Pide ekmeği, tavuk eti, salata, soğan, sos",
+    "ingredients": [
+     "Pide ekmeği",
+     "Tavuk eti",
+     "Salata",
+     "Soğan",
+     "Sos"
+    ]
+   },
+   "uk": {
+    "name": "Курячий донер",
+    "description": "Плаский хліб, курка, салат, цибуля, соус",
+    "ingredients": [
+     "Плаский хліб",
+     "Курка",
+     "Салат",
+     "Цибуля",
+     "Соус"
+    ]
+   }
+  },
+  "d4": {
+   "en": {
+    "name": "Döner box",
+    "description": "Döner meat, fries, salad, sauce",
+    "ingredients": [
+     "Döner meat",
+     "Fries",
+     "Salad",
+     "Sauce"
+    ]
+   },
+   "tr": {
+    "name": "Döner Box",
+    "description": "Döner eti, patates kızartması, salata, sos",
+    "ingredients": [
+     "Döner eti",
+     "Patates kızartması",
+     "Salata",
+     "Sos"
+    ]
+   },
+   "uk": {
+    "name": "Донер бокс",
+    "description": "М'ясо для донера, картопля фрі, салат, соус",
+    "ingredients": [
+     "М'ясо для донера",
+     "Картопля фрі",
+     "Салат",
+     "Соус"
+    ]
+   }
+  },
+  "d5": {
+   "en": {
+    "name": "Döner plate",
+    "description": "Döner meat, rice or fries, salad, sauce",
+    "ingredients": [
+     "Döner meat",
+     "Rice or fries",
+     "Salad",
+     "Sauce"
+    ]
+   },
+   "tr": {
+    "name": "Döner Tabağı",
+    "description": "Döner eti, pilav veya patates, salata, sos",
+    "ingredients": [
+     "Döner eti",
+     "Pilav veya patates",
+     "Salata",
+     "Sos"
+    ]
+   },
+   "uk": {
+    "name": "Донер на тарілці",
+    "description": "М'ясо для донера, рис або картопля фрі, салат, соус",
+    "ingredients": [
+     "М'ясо для донера",
+     "Рис або картопля фрі",
+     "Салат",
+     "Соус"
+    ]
+   }
+  },
+  "d6": {
+   "en": {
+    "name": "Veggie döner",
+    "description": "Flatbread, grilled vegetables, salad, feta, sauce",
+    "ingredients": [
+     "Flatbread",
+     "Grilled vegetables",
+     "Salad",
+     "Feta",
+     "Sauce"
+    ]
+   },
+   "tr": {
+    "name": "Sebzeli Döner",
+    "description": "Pide ekmeği, ızgara sebze, salata, beyaz peynir, sos",
+    "ingredients": [
+     "Pide ekmeği",
+     "Izgara sebze",
+     "Salata",
+     "Beyaz peynir",
+     "Sos"
+    ]
+   },
+   "uk": {
+    "name": "Овочевий донер",
+    "description": "Плаский хліб, овочі гриль, салат, фета, соус",
+    "ingredients": [
+     "Плаский хліб",
+     "Овочі гриль",
+     "Салат",
+     "Фета",
+     "Соус"
+    ]
+   }
+  },
+  "d10": {
+   "en": {
+    "name": "Lahmacun",
+    "description": "Crispy dough with spiced minced meat, salad and lemon",
+    "ingredients": [
+     "Crispy dough",
+     "Spiced minced meat",
+     "Salad",
+     "Lemon"
+    ]
+   },
+   "tr": {
+    "name": "Lahmacun",
+    "description": "Çıtır hamur, baharatlı kıyma, salata ve limon",
+    "ingredients": [
+     "Çıtır hamur",
+     "Baharatlı kıyma",
+     "Salata",
+     "Limon"
+    ]
+   },
+   "uk": {
+    "name": "Лахмаджун",
+    "description": "Хрустке тісто з пряним фаршем, салат і лимон",
+    "ingredients": [
+     "Хрустке тісто",
+     "Пряний фарш",
+     "Салат",
+     "Лимон"
+    ]
+   }
+  },
+  "d11": {
+   "en": {
+    "name": "Lahmacun with döner",
+    "description": "Lahmacun filled with döner meat, salad, sauce",
+    "ingredients": [
+     "Lahmacun dough",
+     "Döner meat",
+     "Salad",
+     "Sauce"
+    ]
+   },
+   "tr": {
+    "name": "Döner'li Lahmacun",
+    "description": "Döner etli lahmacun, salata, sos",
+    "ingredients": [
+     "Lahmacun hamuru",
+     "Döner eti",
+     "Salata",
+     "Sos"
+    ]
+   },
+   "uk": {
+    "name": "Лахмаджун з донером",
+    "description": "Лахмаджун з м'ясом для донера, салатом і соусом",
+    "ingredients": [
+     "Тісто для лахмаджуну",
+     "М'ясо для донера",
+     "Салат",
+     "Соус"
+    ]
+   }
+  },
+  "d12": {
+   "en": {
+    "name": "Cheese pide",
+    "description": "Oven-fresh boat bread with cheese",
+    "ingredients": [
+     "Fresh pide dough",
+     "Melted cheese",
+     "Baked fresh in the oven"
+    ]
+   },
+   "tr": {
+    "name": "Peynirli Pide",
+    "description": "Fırından taze, peynirli pide",
+    "ingredients": [
+     "Taze pide hamuru",
+     "Erimiş peynir",
+     "Fırında taze pişmiş"
+    ]
+   },
+   "uk": {
+    "name": "Піде з сиром",
+    "description": "Свіже піде з печі із сиром",
+    "ingredients": [
+     "Свіже тісто піде",
+     "Розплавлений сир",
+     "Свіжо з печі"
+    ]
+   }
+  },
+  "d13": {
+   "en": {
+    "name": "Minced meat pide",
+    "description": "Oven-fresh pide with minced meat and onions",
+    "ingredients": [
+     "Fresh pide dough",
+     "Minced meat",
+     "Onions",
+     "Baked fresh in the oven"
+    ]
+   },
+   "tr": {
+    "name": "Kıymalı Pide",
+    "description": "Fırından taze, kıymalı ve soğanlı pide",
+    "ingredients": [
+     "Taze pide hamuru",
+     "Kıyma",
+     "Soğan",
+     "Fırında taze pişmiş"
+    ]
+   },
+   "uk": {
+    "name": "Піде з фаршем",
+    "description": "Свіже піде з печі з фаршем і цибулею",
+    "ingredients": [
+     "Свіже тісто піде",
+     "Фарш",
+     "Цибуля",
+     "Свіжо з печі"
+    ]
+   }
+  },
+  "d14": {
+   "en": {
+    "name": "Sucuk pide",
+    "description": "Pide with spicy garlic sausage and cheese",
+    "ingredients": [
+     "Fresh pide dough",
+     "Spicy garlic sausage (sucuk)",
+     "Cheese",
+     "Baked fresh in the oven"
+    ]
+   },
+   "tr": {
+    "name": "Sucuklu Pide",
+    "description": "Sucuklu ve kaşarlı pide",
+    "ingredients": [
+     "Taze pide hamuru",
+     "Baharatlı sarımsaklı sucuk",
+     "Kaşar peyniri",
+     "Fırında taze pişmiş"
+    ]
+   },
+   "uk": {
+    "name": "Піде з суджуком",
+    "description": "Піде з гострою часниковою ковбаскою і сиром",
+    "ingredients": [
+     "Свіже тісто піде",
+     "Гостра часникова ковбаска (суджук)",
+     "Сир",
+     "Свіжо з печі"
+    ]
+   }
+  },
+  "d15": {
+   "en": {
+    "name": "Köfte plate",
+    "description": "Grilled meatballs, rice, salad, sauce",
+    "ingredients": [
+     "Grilled meatballs",
+     "Rice",
+     "Salad",
+     "Sauce"
+    ]
+   },
+   "tr": {
+    "name": "Köfte Tabağı",
+    "description": "Izgara köfte, pilav, salata, sos",
+    "ingredients": [
+     "Izgara köfte",
+     "Pilav",
+     "Salata",
+     "Sos"
+    ]
+   },
+   "uk": {
+    "name": "Кюфте на тарілці",
+    "description": "Кюфте гриль, рис, салат, соус",
+    "ingredients": [
+     "Кюфте гриль",
+     "Рис",
+     "Салат",
+     "Соус"
+    ]
+   }
+  },
+  "d50": {
+   "en": {
+    "name": "Falafel in pocket bread",
+    "description": "Flatbread, falafel, salad, hummus, sauce",
+    "ingredients": [
+     "Flatbread",
+     "Falafel",
+     "Salad",
+     "Hummus",
+     "Sauce"
+    ]
+   },
+   "tr": {
+    "name": "Falafel Ekmek Arası",
+    "description": "Pide ekmeği, falafel, salata, humus, sos",
+    "ingredients": [
+     "Pide ekmeği",
+     "Falafel",
+     "Salata",
+     "Humus",
+     "Sos"
+    ]
+   },
+   "uk": {
+    "name": "Фалафель у лаваші-кишені",
+    "description": "Плаский хліб, фалафель, салат, хумус, соус",
+    "ingredients": [
+     "Плаский хліб",
+     "Фалафель",
+     "Салат",
+     "Хумус",
+     "Соус"
+    ]
+   }
+  },
+  "d51": {
+   "en": {
+    "name": "French fries",
+    "description": "Crispy fries, ketchup or mayo",
+    "ingredients": [
+     "Crispy fries",
+     "Ketchup or mayo"
+    ]
+   },
+   "tr": {
+    "name": "Patates Kızartması",
+    "description": "Çıtır patates, ketçap veya mayonez",
+    "ingredients": [
+     "Çıtır patates",
+     "Ketçap veya mayonez"
+    ]
+   },
+   "uk": {
+    "name": "Картопля фрі",
+    "description": "Хрустка картопля, кетчуп або майонез",
+    "ingredients": [
+     "Хрустка картопля фрі",
+     "Кетчуп або майонез"
+    ]
+   }
+  },
+  "d52": {
+   "en": {
+    "name": "Chicken nuggets (6 pcs)",
+    "description": "With fries and sauce",
+    "ingredients": [
+     "6 chicken nuggets",
+     "Fries",
+     "Sauce"
+    ]
+   },
+   "tr": {
+    "name": "Tavuk Nugget (6 adet)",
+    "description": "Patates ve sos ile",
+    "ingredients": [
+     "6 tavuk nugget",
+     "Patates kızartması",
+     "Sos"
+    ]
+   },
+   "uk": {
+    "name": "Курячі нагетси (6 шт.)",
+    "description": "З картоплею фрі та соусом",
+    "ingredients": [
+     "6 курячих нагетсів",
+     "Картопля фрі",
+     "Соус"
+    ]
+   }
+  },
+  "d30": {
+   "en": {
+    "name": "Mixed salad",
+    "description": "Iceberg lettuce, tomatoes, cucumber, onions, corn, dressing",
+    "ingredients": [
+     "Iceberg lettuce",
+     "Tomatoes",
+     "Cucumber",
+     "Onions",
+     "Corn",
+     "Dressing"
+    ]
+   },
+   "tr": {
+    "name": "Karışık Salata",
+    "description": "Marul, domates, salatalık, soğan, mısır, sos",
+    "ingredients": [
+     "Marul",
+     "Domates",
+     "Salatalık",
+     "Soğan",
+     "Mısır",
+     "Sos"
+    ]
+   },
+   "uk": {
+    "name": "Мікс-салат",
+    "description": "Айсберг, помідори, огірки, цибуля, кукурудза, заправка",
+    "ingredients": [
+     "Айсберг",
+     "Помідори",
+     "Огірки",
+     "Цибуля",
+     "Кукурудза",
+     "Заправка"
+    ]
+   }
+  },
+  "d31": {
+   "en": {
+    "name": "Shepherd's salad",
+    "description": "Tomatoes, cucumber, onions, peppers, feta, olive oil",
+    "ingredients": [
+     "Tomatoes",
+     "Cucumber",
+     "Onions",
+     "Peppers",
+     "Feta",
+     "Olive oil"
+    ]
+   },
+   "tr": {
+    "name": "Çoban Salatası",
+    "description": "Domates, salatalık, soğan, biber, beyaz peynir, zeytinyağı",
+    "ingredients": [
+     "Domates",
+     "Salatalık",
+     "Soğan",
+     "Biber",
+     "Beyaz peynir",
+     "Zeytinyağı"
+    ]
+   },
+   "uk": {
+    "name": "Пастуший салат",
+    "description": "Помідори, огірки, цибуля, перець, фета, оливкова олія",
+    "ingredients": [
+     "Помідори",
+     "Огірки",
+     "Цибуля",
+     "Перець",
+     "Фета",
+     "Оливкова олія"
+    ]
+   }
+  },
+  "d32": {
+   "en": {
+    "name": "Döner salad",
+    "description": "Mixed salad with döner meat and sauce",
+    "ingredients": [
+     "Mixed salad",
+     "Döner meat",
+     "Sauce"
+    ]
+   },
+   "tr": {
+    "name": "Döner Salata",
+    "description": "Karışık salata, döner eti ve sos",
+    "ingredients": [
+     "Karışık salata",
+     "Döner eti",
+     "Sos"
+    ]
+   },
+   "uk": {
+    "name": "Салат з донером",
+    "description": "Мікс-салат з м'ясом для донера та соусом",
+    "ingredients": [
+     "Мікс-салат",
+     "М'ясо для донера",
+     "Соус"
+    ]
+   }
+  },
+  "d40": {
+   "en": {
+    "name": "Ayran (yoghurt drink)",
+    "description": "Refreshing yoghurt drink, 0.25 l",
+    "ingredients": [
+     "Yoghurt",
+     "Water",
+     "Pinch of salt",
+     "0.25 l"
+    ]
+   },
+   "tr": {
+    "name": "Ayran",
+    "description": "Serinletici yoğurt içeceği, 0,25 l",
+    "ingredients": [
+     "Yoğurt",
+     "Su",
+     "Bir tutam tuz",
+     "0,25 l"
+    ]
+   },
+   "uk": {
+    "name": "Айран",
+    "description": "Освіжний йогурт-напій, 0,25 л",
+    "ingredients": [
+     "Йогурт",
+     "Вода",
+     "Дрібка солі",
+     "0,25 л"
+    ]
+   }
+  },
+  "d41": {
+   "en": {
+    "name": "Cola / Fanta / Sprite",
+    "description": "0.33 l can",
+    "ingredients": [
+     "Cola, Fanta or Sprite",
+     "Chilled",
+     "0.33 l can"
+    ]
+   },
+   "tr": {
+    "name": "Kola / Fanta / Sprite",
+    "description": "0,33 l kutu",
+    "ingredients": [
+     "Kola, Fanta veya Sprite",
+     "Soğuk",
+     "0,33 l kutu"
+    ]
+   },
+   "uk": {
+    "name": "Кола / Фанта / Спрайт",
+    "description": "Банка 0,33 л",
+    "ingredients": [
+     "Кола, Фанта або Спрайт",
+     "Охолоджено",
+     "Банка 0,33 л"
+    ]
+   }
+  },
+  "d42": {
+   "en": {
+    "name": "Water",
+    "description": "0.5 l bottle",
+    "ingredients": [
+     "Water",
+     "0.5 l bottle"
+    ]
+   },
+   "tr": {
+    "name": "Su",
+    "description": "0,5 l şişe",
+    "ingredients": [
+     "Su",
+     "0,5 l şişe"
+    ]
+   },
+   "uk": {
+    "name": "Вода",
+    "description": "Пляшка 0,5 л",
+    "ingredients": [
+     "Вода",
+     "Пляшка 0,5 л"
+    ]
+   }
+  },
+  "d43": {
+   "en": {
+    "name": "Tea",
+    "description": "Freshly brewed in a glass",
+    "ingredients": [
+     "Black tea",
+     "Freshly brewed",
+     "Served in a glass"
+    ]
+   },
+   "tr": {
+    "name": "Çay",
+    "description": "Taze demlenmiş, bardakta",
+    "ingredients": [
+     "Siyah çay",
+     "Taze demlenmiş",
+     "Bardakta servis"
+    ]
+   },
+   "uk": {
+    "name": "Чай",
+    "description": "Свіжозаварений у склянці",
+    "ingredients": [
+     "Чорний чай",
+     "Свіжозаварений",
+     "Подається у склянці"
+    ]
+   }
+  },
+  "d44": {
+   "en": {
+    "name": "Coffee",
+    "description": "Freshly prepared",
+    "ingredients": [
+     "Freshly ground coffee",
+     "Freshly prepared"
+    ]
+   },
+   "tr": {
+    "name": "Kahve",
+    "description": "Taze hazırlanır",
+    "ingredients": [
+     "Taze çekilmiş kahve",
+     "Taze hazırlanır"
+    ]
+   },
+   "uk": {
+    "name": "Кава",
+    "description": "Готується свіжим",
+    "ingredients": [
+     "Свіжомелена кава",
+     "Готується свіжою"
+    ]
+   }
+  }
+ },
+ "allergens": {
+  "A": {
+   "en": "Cereals containing gluten",
+   "tr": "Glüten içeren tahıllar",
+   "uk": "Злаки з глютеном"
+  },
+  "B": {
+   "en": "Crustaceans",
+   "tr": "Kabuklular",
+   "uk": "Ракоподібні"
+  },
+  "C": {
+   "en": "Eggs",
+   "tr": "Yumurta",
+   "uk": "Яйця"
+  },
+  "D": {
+   "en": "Fish",
+   "tr": "Balık",
+   "uk": "Риба"
+  },
+  "E": {
+   "en": "Peanuts",
+   "tr": "Yer fıstığı",
+   "uk": "Арахіс"
+  },
+  "F": {
+   "en": "Soy",
+   "tr": "Soya",
+   "uk": "Соя"
+  },
+  "G": {
+   "en": "Milk and lactose",
+   "tr": "Süt ve laktoz",
+   "uk": "Молоко та лактоза"
+  },
+  "H": {
+   "en": "Tree nuts",
+   "tr": "Sert kabuklu yemişler",
+   "uk": "Горіхи"
+  },
+  "L": {
+   "en": "Celery",
+   "tr": "Kereviz",
+   "uk": "Селера"
+  },
+  "M": {
+   "en": "Mustard",
+   "tr": "Hardal",
+   "uk": "Гірчиця"
+  },
+  "N": {
+   "en": "Sesame",
+   "tr": "Susam",
+   "uk": "Кунжут"
+  },
+  "O": {
+   "en": "Sulphur dioxide and sulphites",
+   "tr": "Kükürt dioksit ve sülfitler",
+   "uk": "Діоксид сірки та сульфіти"
+  },
+  "P": {
+   "en": "Lupin",
+   "tr": "Acı bakla",
+   "uk": "Люпин"
+  },
+  "R": {
+   "en": "Molluscs",
+   "tr": "Yumuşakçalar",
+   "uk": "Молюски"
+  }
+ }
+}
