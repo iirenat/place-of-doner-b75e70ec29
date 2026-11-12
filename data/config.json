@@ -27,7 +27,7 @@
   },
   "allergens": {
     "mode": "hinweis",
-    "note": "Allergene und Zusatzstoffe bitte an der Theke erfragen.",
+    "note": "Allergene und Zusatzstoffe bitte an der Kasse erfragen.",
     "legend": {
       "A": "Glutenhaltiges Getreide",
       "B": "Krebstiere",
