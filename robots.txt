@@ -1,3 +1,2 @@
 User-agent: *
-Allow: /
-Sitemap: https://iirenat.github.io/place-of-doner-b75e70ec29/sitemap.xml
+Disallow:
