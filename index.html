@@ -112,6 +112,34 @@ ul{list-style:none;margin:10px 0 0;padding:0}
 .chips{justify-content:center;overflow:visible;max-width:900px;gap:4px}.chips a{padding-left:10px!important;padding-right:10px!important}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
+.ad{display:flex;gap:8px;margin-top:7px;flex-wrap:wrap}
+.ad button{font:600 13px/1 'Oswald',Arial,sans-serif;letter-spacing:.04em;text-transform:uppercase;color:#fff;background:linear-gradient(180deg,#d9242c,#a5141b);border:0;border-radius:999px;padding:8px 14px;box-shadow:0 2px 0 #5a0a0e;cursor:pointer}
+.ad button:active{transform:translateY(1px);box-shadow:none}
+.ad button small{font-size:11px;font-weight:500;opacity:.85;margin-right:3px;text-transform:none}
+.fab.ord{cursor:pointer}
+.bdg{position:absolute;top:-6px;right:-6px;min-width:22px;height:22px;padding:0 5px;border-radius:11px;background:#f3efe8;color:#a5141b;font:700 13px/22px 'Oswald',Arial,sans-serif;text-align:center;box-shadow:0 2px 6px rgba(0,0,0,.5)}
+.bdg:empty{display:none}
+.cs{position:fixed;inset:0;z-index:90;display:none;background:rgba(0,0,0,.6)}
+.cs.on{display:block}
+.cp{position:absolute;left:0;right:0;bottom:0;max-height:92vh;overflow-y:auto;background:#171717;border-top:3px solid var(--br);border-radius:18px 18px 0 0;padding:16px 16px calc(24px + env(safe-area-inset-bottom));max-width:620px;margin:0 auto;-webkit-overflow-scrolling:touch}
+.cp h2{margin:0 0 10px;font-size:26px}
+.cx{position:absolute;right:12px;top:10px;background:none;border:0;color:#f4f1ec;font-size:30px;line-height:1;cursor:pointer;padding:4px 10px}
+.cl{display:grid;gap:0;margin:0 0 8px}
+.cr{display:grid;grid-template-columns:1fr auto auto;gap:8px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line);font-size:16px}
+.cr span.n{font-weight:600;text-transform:uppercase;font-size:15px}.cr span.n em{display:block;font-style:normal;font-weight:400;text-transform:none;font-size:12px;color:#cdc8c0}
+.cq{display:flex;align-items:center;gap:6px}.cq button{width:30px;height:30px;border-radius:50%;border:1.5px solid var(--br);background:none;color:#f4f1ec;font-size:18px;line-height:1;cursor:pointer}
+.cr b{font-weight:600;min-width:56px;text-align:right}
+.ct{display:flex;justify-content:space-between;font-size:22px;font-weight:700;margin:10px 0 12px}
+.cp label{display:block;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#cdc8c0;margin:10px 0 3px}
+.cp input[type=text],.cp input[type=tel],.cp textarea{width:100%;font:400 16px 'Oswald',Arial,sans-serif;color:#f4f1ec;background:#0d0d0d;border:1.5px solid var(--br2);border-radius:8px;padding:10px;-webkit-appearance:none}
+.cp textarea{min-height:56px;resize:vertical}
+.md{display:flex;gap:8px}.md label{flex:1;margin:0;text-align:center;border:1.5px solid var(--br);border-radius:999px;padding:9px 6px;font-size:14px;letter-spacing:.05em;color:#f4f1ec;cursor:pointer}
+.md input{position:absolute;opacity:0;pointer-events:none}.md input:checked+span{color:#fff}.md label:has(input:checked){background:var(--red);border-color:var(--red)}
+.hint{font-size:13px;color:#d9cfa0;margin:6px 0 0;line-height:1.35}
+.send{width:100%;margin-top:14px;font:600 17px 'Oswald',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--red);border:0;border-radius:999px;padding:14px;box-shadow:0 4px 0 var(--red2);cursor:pointer}
+.send[disabled]{opacity:.45;box-shadow:none}
+.err{color:#ff9b9b;font-size:14px;margin:8px 0 0;min-height:1em}
+.emp{padding:18px 0;color:#cdc8c0;font-size:16px}
 </style><link rel="canonical" href="https://iirenat.github.io/place-of-doner-b75e70ec29/"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Restaurant", "name": "Place of Döner", "url": "https://iirenat.github.io/place-of-doner-b75e70ec29/", "image": "https://iirenat.github.io/place-of-doner-b75e70ec29/og.png", "telephone": "+49 2651 7004344", "servesCuisine": ["Döner", "Pide", "Pizza", "Pasta"], "priceRange": "€", "hasMenu": "https://iirenat.github.io/place-of-doner-b75e70ec29/menu/", "address": {"@type": "PostalAddress", "streetAddress": "Koblenzer Straße 10", "postalCode": "56727", "addressLocality": "Mayen", "addressCountry": "DE"}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "opens": "10:00", "closes": "22:00"}]}</script></head><body>
 <input type="radio" name="lg" id="lg-de" class="lgr" checked><input type="radio" name="lg" id="lg-en" class="lgr"><input type="radio" name="lg" id="lg-tr" class="lgr"><input type="radio" name="lg" id="lg-ru" class="lgr">
 <header class="cover"><div class="band"></div><div class="langtop"><div class="lang"><label for="lg-de">DE</label><label for="lg-en">EN</label><label for="lg-tr">TR</label><label for="lg-ru">RU</label></div></div><div class="in">
@@ -209,4 +237,65 @@ ul{list-style:none;margin:10px 0 0;padding:0}
 <a class="fab" href="tel:+4926517004344" aria-label="Anrufen"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.300.2 2.500.6 3.600.1.3 0 .7-.2 1z"/></svg></a><a class="fab ord" href="https://wa.me/4926517004344?text=Hallo%2C%20ich%20m%C3%B6chte%20bestellen%3A%20" aria-label="Bestellen"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm10 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zM1 2v2h2l3.6 7.6-1.4 2.4A2 2 0 0 0 7 17h12v-2H7.4l1.1-2h7.5c.8 0 1.4-.4 1.7-1l3.6-6.5A1 1 0 0 0 20.4 4H5.2l-.9-2z"/></svg></a>
 <script>(function(){var d=document.documentElement;function set(l){d.setAttribute('data-lang',l);d.lang=l;}
 var r=document.querySelectorAll('.lgr');for(var i=0;i<r.length;i++){r[i].addEventListener('change',function(){if(this.checked)set(this.id.slice(3))});}
-var ls=document.querySelectorAll('.lang label');for(var j=0;j<ls.length;j++){ls[j].addEventListener('click',function(){set(this.getAttribute('for').slice(3))});}})();</script></body></html>
+var ls=document.querySelectorAll('.lang label');for(var j=0;j<ls.length;j++){ls[j].addEventListener('click',function(){set(this.getAttribute('for').slice(3))});}})();</script><script>(function(){
+var WA='4926517004344',K='pod-cart-v1',cart={},fab=document.querySelector('.fab.ord');
+if(!fab||!document.querySelectorAll('.it').length)return;
+function num(t){var m=(t||'').replace(/\s/g,'').match(/^(\d+),(\d\d)$/);return m?parseInt(m[1],10)*100+parseInt(m[2],10):null}
+function eur(c){return(c/100).toFixed(2).replace('.',',')+' €'}
+try{cart=JSON.parse(localStorage.getItem(K)||'{}')||{}}catch(e){cart={}}
+function save(){try{localStorage.setItem(K,JSON.stringify(cart))}catch(e){}}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+/* Buttons on items */
+var items=document.querySelectorAll('.it');
+for(var i=0;i<items.length;i++){(function(li){
+ var nr=(li.querySelector('.nr')||{}).textContent||'',h=li.querySelector('h4'),tx=li.querySelector('.tx');
+ if(!h||!tx)return;var name=h.firstChild?h.firstChild.textContent.trim():h.textContent.trim();
+ var pr=li.querySelectorAll('.pr b'),two=pr.length===2,labs=['klein','groß'],box=document.createElement('div');box.className='ad';
+ for(var k=0;k<pr.length;k++){var c=num(pr[k].textContent);if(c===null)continue;
+  (function(c,k){var b=document.createElement('button');b.type='button';
+   b.innerHTML=(two?'<small>'+labs[k]+'</small>':'')+'+ '+eur(c);
+   b.setAttribute('aria-label',name+(two?' '+labs[k]:'')+' in den Warenkorb');
+   b.addEventListener('click',function(){var id=nr+(two?'-'+k:'');
+    if(!cart[id])cart[id]={n:nr,t:name+(two?' ('+labs[k]+')':''),p:c,q:0};cart[id].q++;save();upd();
+    b.style.transform='scale(.94)';setTimeout(function(){b.style.transform=''},120)});
+   box.appendChild(b)})(c,k)}
+ if(box.children.length)tx.appendChild(box)})(items[i])}
+/* Cart sheet */
+var bdg=document.createElement('span');bdg.className='bdg';fab.appendChild(bdg);
+var sh=document.createElement('div');sh.className='cs';sh.setAttribute('role','dialog');sh.setAttribute('aria-modal','true');sh.setAttribute('aria-label','Warenkorb');
+sh.innerHTML='<div class="cp"><button class="cx" type="button" aria-label="Schließen">×</button><h2>Warenkorb</h2><div class="cl"></div><div class="ct"><span>Summe</span><span class="sum"></span></div>'+
+'<div class="md"><label><input type="radio" name="mode" value="Abholung" checked><span>Abholung</span></label><label><input type="radio" name="mode" value="Lieferung"><span>Lieferung</span></label></div>'+
+'<label for="o-name">Name</label><input id="o-name" type="text" autocomplete="name">'+
+'<label for="o-tel">Telefon</label><input id="o-tel" type="tel" autocomplete="tel">'+
+'<div class="adr" hidden><label for="o-adr">Adresse (Straße, Nr., Ort)</label><input id="o-adr" type="text" autocomplete="street-address"><p class="hint">Lieferung innerorts ab 15 €, außerorts ab 20 € Bestellwert. Fahrtkosten je nach Kilometer 1 €. Lieferzeiten Mo.–Sa. 12–22 Uhr. Kartenzahlung nur bei Abholung.</p></div>'+
+'<label for="o-time">Wunschzeit</label><input id="o-time" type="text" placeholder="so schnell wie möglich">'+
+'<label for="o-note">Anmerkung</label><textarea id="o-note" placeholder="z. B. ohne Zwiebeln, Sauce nach Wahl"></textarea>'+
+'<p class="err" role="alert"></p><button class="send" type="button">Per WhatsApp bestellen</button>'+
+'<p class="hint">Die Bestellung gilt erst, wenn das Restaurant sie bestätigt. Preise inkl. MwSt.</p></div>';
+document.body.appendChild(sh);
+var $=function(s){return sh.querySelector(s)},list=$('.cl'),sum=$('.sum'),err=$('.err'),send=$('.send'),adr=$('.adr');
+function total(){var t=0,n=0;for(var id in cart){t+=cart[id].p*cart[id].q;n+=cart[id].q}return{t:t,n:n}}
+function upd(){var T=total();bdg.textContent=T.n?T.n:'';fab.setAttribute('aria-label',T.n?'Warenkorb ('+T.n+')':'Bestellen');
+ var h='';for(var id in cart){var c=cart[id];h+='<div class="cr"><span class="n">'+esc(c.n)+' '+esc(c.t)+'</span><span class="cq"><button type="button" data-a="-" data-i="'+esc(id)+'" aria-label="weniger">−</button>'+c.q+'<button type="button" data-a="+" data-i="'+esc(id)+'" aria-label="mehr">+</button></span><b>'+eur(c.p*c.q)+'</b></div>'}
+ list.innerHTML=h||'<p class="emp">Noch nichts im Warenkorb. Tippe bei einem Gericht auf „+ Preis“.</p>';
+ sum.textContent=eur(T.t);send.disabled=!T.n}
+list.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var id=b.getAttribute('data-i');if(!cart[id])return;
+ cart[id].q+=b.getAttribute('data-a')==='+'?1:-1;if(cart[id].q<=0)delete cart[id];save();upd()});
+function open(){sh.classList.add('on');document.body.style.overflow='hidden'}
+function close(){sh.classList.remove('on');document.body.style.overflow=''}
+fab.addEventListener('click',function(e){e.preventDefault();open()});
+$('.cx').addEventListener('click',close);
+sh.addEventListener('click',function(e){if(e.target===sh)close()});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')close()});
+sh.addEventListener('change',function(e){if(e.target.name==='mode')adr.hidden=e.target.value!=='Lieferung'});
+send.addEventListener('click',function(){
+ var T=total(),mode=sh.querySelector('input[name=mode]:checked').value,name=$('#o-name').value.trim(),tel=$('#o-tel').value.trim(),a=$('#o-adr').value.trim();err.textContent='';
+ if(!T.n)return;
+ if(!name||!tel){err.textContent='Bitte Name und Telefonnummer eingeben.';return}
+ if(mode==='Lieferung'){if(!a){err.textContent='Bitte die Lieferadresse eingeben.';return}if(T.t<1500){err.textContent='Lieferung erst ab 15 € Bestellwert (außerorts ab 20 €).';return}}
+ var L=['Hallo, ich möchte bestellen:',''];for(var id in cart){var c=cart[id];L.push(c.q+'× '+c.n+' '+c.t+' – '+eur(c.p*c.q))}
+ L.push('','Summe: '+eur(T.t),mode+(mode==='Lieferung'?': '+a:''),'Name: '+name,'Tel.: '+tel);
+ var w=$('#o-time').value.trim(),nt=$('#o-note').value.trim();L.push('Zeit: '+(w||'so schnell wie möglich'));if(nt)L.push('Anmerkung: '+nt);
+ window.open('https://wa.me/'+WA+'?text='+encodeURIComponent(L.join('\n')),'_blank','noopener')});
+upd()})();
+</script></body></html>
